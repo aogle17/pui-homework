@@ -135,6 +135,10 @@ button {
 }
 
 /****** CSS FOR FLOWER ONLY*****/
+
+#flowerImage {
+  width: 180px;
+}
 @media screen and (max-width: 1300px) {
   #flowerImage {
     width: 100px;
