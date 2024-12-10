@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 900px;
+  height: 900px;
   gap: 70px;
   align-items: center;
 }
