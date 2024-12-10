@@ -26,19 +26,20 @@
                         <div>
                             <img class="questionImage"/> 
                         </div>
-                            
-                        <div id="questionTextContent">
-                                <h1 id="questionText">
-                                    Is this label greenwashing?
-                                </h1>
-                                <p id="indepthQuestionText">
-                                
-                                </p>
-                        </div>
+                        <div id="questionAndButton">
+                            <div id="questionTextContent">
+                                    <h1 id="questionText">
+                                        Is this label greenwashing?
+                                    </h1>
+                                    <p id="indepthQuestionText">
+                                    
+                                    </p>
+                            </div>
 
-                        <div id="questionButtons">
-                            <button id="yesButton" value="yes"> Yes </button>
-                            <button id="noButton" value="no"> No </button>
+                            <div id="questionButtons">
+                                <button id="yesButton" value="yes"> Yes </button>
+                                <button id="noButton" value="no"> No </button>
+                            </div>
                         </div>
                     </div>
                 <!-- end of  QUIZ CONTENT CONTAINER -->
@@ -71,23 +72,29 @@
                             "You received _ out of _ answers correctly"
                             <!-- populating with text before being displayed as a way to ensure that the header is not interpreted as empty -->
                         </h1>
-                        <p id="moreResources">
-                            I hope this page was able to inform you about the intricacies of greenwashing and begin to teach you how to go about identifying it. 
+                        <div id="resultsText">
+                            <p id="moreResources">
+                                I hope this page was able to inform you about the intricacies of greenwashing and begin to teach you how to go about identifying it. 
+                            </p>
+                            <p>
                             Here are some resources for learning more about greenwashing!
                             <ul>
-                            <a href=""><li></li></a>
-                            <a href=""><li></li></a>
-                            <a href=""><li></li></a>
+                                <a href=""><li></li></a>
+                                <a href=""><li></li></a>
+                                <a href=""><li></li></a>
                             </ul>
-                        </p>
+                            </p>
+                        </div>
+
+                    
                     </div>
                     <!-- end of RESULTS CONTENT CONTAINER-->
           
                 </div> <!-- end of CONTENT CONTAINER SANS FLOWERS -->
             
             
-            <div id="flower">
-                <img src="./assets/questionPage/flower.svg" alt="pink flower with a green stem and green leaves">
+            <div id="flowerBox">
+                <img src="./assets/questionPage/flower.svg" alt="pink flower with a green stem and green leaves" id="flowerImage">
             </div>
     
         </div> 
@@ -95,4 +102,4 @@
 
     </body>
 
-    </html>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #5ab398;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.instructionsEntireText {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  gap: 70px;
+  align-items: center;
+}
+
+#instructionTextExplain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.explainerContainer {
+  width: 255px;
+  height: 400px;
+  background-color: #f7f5e6;
+  border-radius: 50px;
+  padding: 30px;
+  margin: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
