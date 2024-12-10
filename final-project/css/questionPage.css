@@ -1,15 +1,13 @@
 /****** CS FOR ENTIRE PAGE*****/
 body {
   background: #43a977;
+  font-family: "Courier New", Courier, monospace;
 }
 
-@font-face {
-  font-family: "questionFont";
-  src: url("/final-project/assets/fonts/AnonymousPro-Regular.ttf")
-    format("truetype");
-}
-
-body {
+body,
+h1,
+p,
+button {
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -36,12 +34,11 @@ body {
   gap: 60px;
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  font-family: "questionFont";
 }
 
 @media only screen and (max-width: 800px) {
   body {
-    background: #2c2c2c;
+    background: #2c2c2c !important;
   }
 }
 
@@ -50,7 +47,6 @@ button {
   background-color: #e38686;
   border-radius: 15px;
   font-size: larger;
-  font-family: "questionFont";
   color: white;
   border: none;
   width: 70px;
@@ -117,9 +113,9 @@ button {
 
 /****** CSS FOR FLOWER ONLY*****/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   #flowerImage {
-    width: 90%;
+    width: 80% !important;
     height: auto;
   }
 }
