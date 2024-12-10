@@ -7,11 +7,6 @@
 }
 
 body {
-  /* margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%; */
   font-family: "Georgia", serif;
   background-color: #5ab398;
 }
@@ -20,6 +15,11 @@ p {
   font-size: 120px;
 }
 
+@media screen and (max-width: 1300px) {
+  p {
+    font-size: 100px;
+  }
+}
 #homeNameDiv {
   /* display:flex;
     width:80%;

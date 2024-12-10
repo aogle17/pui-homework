@@ -17,6 +17,11 @@ body {
   align-items: center;
 }
 
+#titleInstructionsPage {
+  text-align: center;
+  color: white;
+}
+
 #instructionTextExplain {
   display: flex;
   justify-content: center;

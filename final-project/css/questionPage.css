@@ -46,7 +46,7 @@ button {
     padding: 30px;
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     font-size: smaller;
@@ -132,6 +132,12 @@ button {
 #resultsText {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 1300px) {
+  #resultsText {
+    font-size: 12px;
+  }
 }
 
 /****** CSS FOR FLOWER ONLY*****/
