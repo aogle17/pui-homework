@@ -31,6 +31,7 @@ p {
   justify-content: center;
   text-align: center;
   width: 100%; /* Adjust width if needed */
+  margin-top: 5%;
 }
 
 .quizName {
@@ -51,7 +52,7 @@ button {
   margin: auto;
   font-family: Georgia, "Times New Roman", Times, serif;
   position: absolute;
-  top: 90%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

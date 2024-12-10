@@ -80,18 +80,24 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background-color: #f9f5e7;
   color: #2c2c2c;
   font-weight: bold;
   font-size: 16px;
   border: 2px solid #4caf50;
-
   position: absolute;
-  top: -10px; /* Moves it slightly above the card */
-  left: 20px; /* Adjust to align with the card */
+  left: 130px;
+  top: 200px;
+}
+
+@media screen and (max-width: 1300px) {
+  #questionNum {
+    left: 50px;
+    top: 100px;
+  }
 }
 
 /****** CSS FOR QUESTION CONTENT ONLY *****/
