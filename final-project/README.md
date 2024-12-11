@@ -9,9 +9,10 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 ## Part 1: Website Description
 
 Describe your website (300 words).
-The purpose of my website is teach about what greenwashing is and how to identify greenwashing. I want to teach individuals about this issue as a way to ensure that they are empowered to make more climate-conscious decisions. A, because as consumers, we have very little control over the environmental practices and impact of companies. However, where we choose to spend our money yields some limited influence on however companies act. Additionally, an individual might
+The purpose of my website is teach about what greenwashing is and how to identify greenwashing. I want to teach individuals about this issue as a way to ensure that they are empowered to make more climate-conscious decisions. Because as consumers, we have very little control over the environmental practices and impact of companies. However, where we choose to spend our money yields some limited influence on however companies act.
 My target audience are individuals who are trying to become more aware about making environmentally-conscious choices or indivduals who are trying to ensure that their current understanding of greenwashing is accurate. Along with individuals who might need a refresher on greenwashing.
-I want to convey to indivdiuals three
+I want to convey to individuals the pervasiveness of greenwashing and how it can difficult to identify. I want individuals to gain a sort of skepticism towards companies and the claims they make. Hopefully, they can use this information to make act as eco-conscious as posible
+My website is engaging as it will demonstrate to individuals just how misleadings companies can be and will teach them a new skill: identifying greenwashing.
 
 - What is the purpose of your website?
 - Who is the target audience?
@@ -22,29 +23,53 @@ I want to convey to indivdiuals three
 
 How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.
-2.
+Home Page
+
+1. Click to begin
+
+Instructions Page
+
+1. Reading through the defintion of greenwashing
+2. reading through the background on the game
+3. Click begin button to begin
+
+Quiz
+
+1. Read through question and click on answer
+2. Read through explainer and click the button to go to the next question
+3. Read through question and click on answer
+4. Read through explainer and click the button to go to the next question
+5. Read through question and click on answer
+6. Read through explainer and click the button to go to the next question
+7. Read through question and click on answer
+8. Read through explainer and click the button to go to the next question
+9. Click on resource links
 
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
 1. GSAP
-   - Why did you choose to use it over other alternatives? (2 sentences max)
-   - How you used it? (2 sentences max)
-   - What does it add to your website? (2 sentences max)
-2. Name of tool2
+
+- I chose GSAP because it the was option I checked out and when it was able to perform the way I wanted it to perform, I had no need to pursue other options.
+
+- I used it to make the flower shrink and grow in response to a user's accuracy in answering a question
+
+- it's add a more playful element to the quiz and makes the feel user more intentional with their answers in order to make their flower grow rather than shrink
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+I changed the home page and instruction page of my prototype. I wanted to have a more on the nose design for my homepage so I added a dotted background that replaced my original background which was pictures of flowers.
+
+I changed my instructions to just be one to minimize how much a user has to click through.
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+I had challenges with my css not being updated to my deployed website and troubleshooting to figure out why. I had trouble formatting with CSS and getting things to somewhat look how I wanted them to. I struggled to download GSAP because I initially tried to use npm but that didn't installed corretly and complicated the process.
 
 ## Part 6: Generative AI Use and Reflection
 
+I used Chat GPT for debugging mainly and for more direct answers on how to something. I would ask Chat GPT
 Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
 
 Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
@@ -60,7 +85,7 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings      | design | plan   | write code | debug  | \_ (other?) |
 | :-------- | :----------- | :----- | :----- | :--------- | :----- | :---------- |
-| Tool1     | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
+| ChatGPT   | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
 | Tool1     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
 | Tool2     | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
 | Tool2     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
