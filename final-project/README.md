@@ -69,10 +69,7 @@ I had challenges with my css not being updated to my deployed website and troubl
 
 ## Part 6: Generative AI Use and Reflection
 
-I used Chat GPT for debugging mainly and for more direct answers on how to something. I would ask Chat GPT
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
-
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+I used Chat GPT for debugging mainly and for more direct answers on how to something. I would ask Chat GPT to look at my code to my sure my syntax was not off. I would ask ChatGPT questions such as how to make a page responsive or how to make a circle just very simple stuff. I asked ChatGPT with formatting help on how to center things, as I find this stuff to be very difficult and appreciate having the help.
 
 ### Usage Experiences by Project Aspects
 
@@ -83,51 +80,49 @@ For the following aspects of your project, edit the corresponding table cell to 
 - _Usage_: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
 - _Productivity_: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
 
-| Tool Name | Ratings      | design | plan   | write code | debug  | \_ (other?) |
-| :-------- | :----------- | :----- | :----- | :--------- | :----- | :---------- |
-| ChatGPT   | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
-| Tool1     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
-| Tool2     | Usage        | Yes/No | Yes/No | Yes/No     | Yes/No | Yes/No      |
-| Tool2     | Productivity | 1~7    | 1~7    | 1~7        | 1~7    | 1~7         |
+| Tool Name | Ratings      | design | plan | write code | debug | \_ (other?) |
+| :-------- | :----------- | :----- | :--- | :--------- | :---- | :---------- |
+| ChatGPT   | Usage        | Yes    | Yes  | No         | Yes   | Yes         |
+| ChatGPT   | Productivity | 5      | 5    | 4          | 5     | 5           |
 
 ### Usage Reflection
 
 > Impact on your design and plan
+> I
 
 - It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
-  1. Tool1:
-  2. Tool2:
-- It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example,
-  1. Tool1:
-  2. Tool2:
-- GenAI tool did/did not influence my final design and implementation plan because … For example,
-  1. Tool1:
-  2. Tool2:
+  1. Tool1:ChatGPT
+     I expected that I would ChatGPT for simple how-to's as I liked how it was so direct in giving an answer. When you look at pages like Stack Overflow. The answer you can be looking for can be buried or not even there. ChatGPT just streamlines the process for me and takes care of the little simple things, so I can focus on other stuff.
 
 > Use patterns
 
 - I accepted the generations when … For example,
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because …
-  2. Tool2:
+
+  1.ChatGPT: suggested a new method for centering my content and I accepted it, because it actually worked unlike the code I had been implementing.
+
 - I critiqued/evaluated the generated suggestions by … For example,
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because …
-  2. Tool2:
+  1. ChatGPT: For debugging this tool did not always have the best answers when issues became more complexed or nuanced, it just had a prescribed script of clear you cache and other such measures (Referring to my issue with my CSS not updating in my deployed website). I indicated that this didn't work but it still suggested this resolution.
 
 > Pros and cons of using GenAI tools
+> ChatGPT
 
 - Pros
-  1. Tool1:
-  2. Tool2:
+  1.faster 2. for simple stuff there is very little room for error
 - Cons
-  1. Tool1:
-  2. Tool2:
+  1. lacks nuance
+  2. can be repititive and struggle to generate new solutions
 
 ### Usage Log
 
 Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](<https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.>): export chat histories relevant to this project.
+1. [ChatGPT]
+   https://chatgpt.com/share/6758f80c-37b4-8008-8320-7127a42af785
+   https://chatgpt.com/share/6758f874-6b78-8008-aff2-49dc0b54f8c6
+2. [GitHub Copilot (VSCode)](
+   n/a
+
+<https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.>): export chat histories relevant to this project.
 
 ---
 
