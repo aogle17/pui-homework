@@ -46,9 +46,9 @@ const responses = {
   },
   4: {
     explainerText:
-      "This is not a form of greenwashing. Receiving a B Corp label requires an intensive presentation of sustainability measuresl. Though recent controversy has led to a questioning of the validity of this certification, as controversial companies such as Nepresso are now labelled as B Corps.",
+      "This is not a form of greenwashing. Receiving a B Corp label requires an intensive presentation of sustainability measuresl. Though recent controversy has led to a questioning of the validity of this certification, as questionable companies such as Nepresso are now labelled as B Corps.",
     addtResourcesLink:
-      "https://www.npr.org/2024/09/12/nx-s1-5109902/keurig-kcup-pods-recycle-sec-fine",
+      "https://sustainabilitymag.com/esg/b-corp-are-they-really-the-gold-standard-of-sustainability",
     imageFile: "qOneKeurig.jpg",
   },
   6: {
@@ -107,7 +107,7 @@ function renderExplanation(accuracy) {
 function renderResults(score) {
   const quizResults = document.getElementById("quizResults");
 
-  quizResults.innerText = "You answered  " + score + " out of 5 correctly";
+  quizResults.innerText = "You answered  " + score + " out of 4 correctly";
 }
 
 ///////USER INTERACTION WITH THE SCREEN///////
