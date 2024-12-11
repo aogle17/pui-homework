@@ -2,7 +2,7 @@
 
 const questions = {
   1: {
-    questionText: "Is this label greenwashing? Q1",
+    questionText: "Is this label greenwashing?",
     indepthQuestionText:
       "On their k-cups, Keurig includes the label of recyclable. Is the inclusion of this term an example of greenwashing?",
     imageFile: "qOneKeurig.jpg",
@@ -10,7 +10,7 @@ const questions = {
     altText: "keurig cup label",
   },
   3: {
-    questionText: "Is this label greenwashing? Q2",
+    questionText: "Is this label greenwashing?",
     indepthQuestionText:
       "The B Corp label is often display on products as a demonstration of their sustainable efforts, however is this label misleading about its climate consciousness?",
     imageFile: "qTwoBCorp.png",
@@ -18,7 +18,7 @@ const questions = {
     altText: "B Corporation Label with example B Corp Companies",
   },
   5: {
-    questionText: "Is this a form of greenwashing? Q3",
+    questionText: "Is the Polar Springs eco-bottle greenwashing?",
     indepthQuestionText:
       "In 2012, Polar Springs released a eco-shape bottle (left) with features  such as a smaller cap that was promoted as reducing plastic waste. Is this a form of greenwashing? ",
     imageFile: "qThreesmallerLid.jpg",
@@ -27,7 +27,8 @@ const questions = {
       "a side by side comparison of two water bottles: one was a big lid and one with a small lid",
   },
   7: {
-    questionText: "Is the Polar Springs eco-bottle greenwashing? Q4",
+    questionText:
+      "Is the Huggies Pure and Natural diaper a form of greenwashing?",
     indepthQuestionText:
       "Huggies released a pure and natural line of diapers for eco-conscious parents. Was this greenwashing?",
     imageFile: "qFourHuggies.png",
@@ -76,6 +77,7 @@ let score = 0;
 function renderQuestion() {
   //accessing content from the dom
   const questionImg = document.querySelector(".questionImage");
+  const questionText = document.getElementById("questionText");
   const indepthQuestionText = document.getElementById("indepthQuestionText");
   const questionNum = document.getElementById("questionNum");
 
@@ -84,6 +86,7 @@ function renderQuestion() {
   questionImg.src =
     "assets/questionPage/" + questions[pageTracker]["imageFile"];
   questionImg.alt = "assets/questionPage/" + questions[pageTracker]["altText"];
+  questionText.innerText = questions[pageTracker]["questionText"];
   indepthQuestionText.innerText = questions[pageTracker]["indepthQuestionText"];
 }
 
