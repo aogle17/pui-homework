@@ -40,7 +40,7 @@ button {
 @media screen and (max-width: 1300px) {
   .contentContainer {
     width: 600px;
-    height: 180px;
+    height: 195px;
     background-color: #f7f5e6;
     border-radius: 50px;
     padding: 30px;
@@ -137,6 +137,7 @@ button {
 }
 #resultsText {
   margin: 20px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
 }
