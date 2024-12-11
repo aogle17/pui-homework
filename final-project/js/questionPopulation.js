@@ -30,7 +30,7 @@ const questions = {
     questionText:
       "Is the Huggies Pure and Natural diaper a form of greenwashing?",
     indepthQuestionText:
-      "Huggies released a pure and natural line of diapers for eco-conscious parents. Was this greenwashing?",
+      "Huggies released a pure and natural line of cotton diapers for eco-conscious parents. Was this greenwashing?",
     imageFile: "qFourHuggies.png",
     correctAnswer: "yes",
     altText: "package of huggies diapers labeled pure and natural ",
@@ -40,14 +40,14 @@ const questions = {
 const responses = {
   2: {
     explainerText:
-      "This was a form of greenwashing. Keurig purposely mislead their customers into thinking their k-cups could easily be recyled when the opposite is true. Very few recycling plants have the capacity to recycle keurig cups",
+      "This was a form of greenwashing. Keurig purposely mislead their customers into thinking their k-cups could easily be recyled when the opposite is true. Very few recycling plants have the capacity to recycle keurig cups.",
     addtResourcesLink:
       "https://www.npr.org/2024/09/12/nx-s1-5109902/keurig-kcup-pods-recycle-sec-fine",
     imageFile: "qOneKeurig.jpg",
   },
   4: {
     explainerText:
-      "This is not a form of greenwashing. Receiving a B Corp label requires an intensive presentation of sustainability measuresl. Though recent controversy has led to a questioning of the validity of this certification, as questionable companies such as Nepresso are now labelled as B Corps.",
+      "This is not a form of greenwashing. Receiving a B Corp label requires an intensive presentation of sustainability measures. Though recent controversy has led to a questioning of the validity of this certification, as questionable companies such as Nepresso are now labelled as B Corps.",
     addtResourcesLink:
       "https://sustainabilitymag.com/esg/b-corp-are-they-really-the-gold-standard-of-sustainability",
     imageFile: "qOneKeurig.jpg",
@@ -93,6 +93,7 @@ function renderQuestion() {
 //------ for the explainer page ------//
 function renderExplanation(accuracy) {
   //accessing content from the dom
+  const questionNum = document.getElementById("questionNum");
   const questionImg = document.querySelector(".questionImage");
   const responseAccuracy = document.getElementById("accuracy");
   const explainerText = document.getElementById("explainerText");
@@ -129,12 +130,10 @@ let accuracy = "";
 //recording the accuracy of the response
 function checkAnswer() {
   if (answer === questions[pageTracker]["correctAnswer"]) {
-    console.log("you are correct"); //just using these as a metric to motor correctness
     score++;
     accuracy = "correct";
     return accuracy;
   } else {
-    console.log("you are incorrect");
     accuracy = "incorrect";
     return accuracy;
   }
@@ -168,13 +167,18 @@ function changeDisplay(accuracy) {
   const resultsPage = document.getElementById("resultsPage");
 
   //making sure that the quiz is not over and then using the page tracker to determine which content to display
-  if (pageTracker < Object.entries(questions).length * 2) {
+  if (pageTracker <= Object.entries(questions).length * 2) {
     if (pageTracker % 2 === 0) {
       questionTracker++;
       responseContainer.style.display = "flex";
       questionContainer.style.display = "none";
       console.log(questionContainer.style.display);
-      nextButton.innerText = "Q" + questionTracker;
+      //making questionNum stop displaying numbers when relevant (end)
+      if (pageTracker == Object.entries(questions).length * 2) {
+        nextButton.innerText = "Results";
+      } else {
+        nextButton.innerText = "Q" + questionTracker;
+      }
       renderExplanation(accuracy);
     } else {
       responseContainer.style.display = "none";

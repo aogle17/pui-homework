@@ -61,7 +61,7 @@ button {
   font-size: larger;
   color: black;
   border: none;
-  width: 70px;
+  width: 95px;
   height: 40px;
 }
 
@@ -77,8 +77,8 @@ button:hover {
     font-size: small;
     color: black;
     border: none;
-    width: 40;
-    height: 22px;
+    width: 65px;
+    height: 28px;
   }
 }
 
