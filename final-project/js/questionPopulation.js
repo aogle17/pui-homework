@@ -1,4 +1,4 @@
-//array containing all the question content
+//////objects containing all the question content//////
 
 const questions = {
   1: {
@@ -72,6 +72,7 @@ let score = 0;
 
 ////////TEXT CONTENT CREATION///////
 
+//------ for the question page ------//
 function renderQuestion() {
   //accessing content from the dom
   const questionImg = document.querySelector(".questionImage");
@@ -104,6 +105,7 @@ function renderExplanation(accuracy) {
   addtResourcesLink.href = responses[pageTracker]["addtResourcesLink"];
 }
 
+//------ for the results page ------//
 function renderResults(score) {
   const quizResults = document.getElementById("quizResults");
 
@@ -184,7 +186,7 @@ function changeDisplay(accuracy) {
   }
 }
 
-//FLOWER ANIMATION//
+/////////////FLOWER ANIMATION/////////////
 let currentScale = 1; // Start at normal size
 let scaleChange = 0.15;
 
@@ -204,13 +206,6 @@ function animateFlower(accuracy) {
     duration: 0.8,
   });
 }
-
-/*
-
-
-// Initialize the quiz
-
-*/
 
 //inital render of the question
 renderQuestion();

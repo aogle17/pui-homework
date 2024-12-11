@@ -21,16 +21,12 @@ p {
   }
 }
 #homeNameDiv {
-  /* display:flex;
-    width:80%;
-    flex-direction: column;
-   align-items: center; */
   display: flex;
-  flex-direction: column; /* Stack children vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%; /* Adjust width if needed */
+  width: 100%;
   margin-top: 5%;
 }
 
