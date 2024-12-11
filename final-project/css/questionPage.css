@@ -55,10 +55,10 @@ button {
 
 /* styling the buttons */
 button {
-  background-color: #e38686;
+  background-color: #5ab398;
   border-radius: 15px;
   font-size: larger;
-  color: white;
+  color: black;
   border: none;
   width: 70px;
   height: 40px;
@@ -66,10 +66,10 @@ button {
 
 @media screen and (max-width: 1300px) {
   button {
-    background-color: #e38686;
+    background-color: #5ab398;
     border-radius: 15px;
     font-size: small;
-    color: white;
+    color: black;
     border: none;
     width: 40;
     height: 22px;
@@ -117,11 +117,6 @@ button {
 #questionAndButton {
   display: flex;
   flex-direction: column;
-}
-
-.questionButtons {
-  display: flex;
-  flex-direction: row;
 }
 
 /****** CSS FOR RESPONSE CONTENT ONLY *****/
