@@ -2,6 +2,18 @@
 
 <mark>**Note that this document order from FP4 -> FP1**</mark>
 
+# **Accessibility and Responsiveness**
+
+## Part 1: Accessibility
+
+![WAVE for Homepage](assets/FP4/waveHome.png)
+![WAVE for Instruction Page](assets/FP4/waveInstructions.png)
+![WAVE for Quiz Page](assets/FP4/waveQuiz.png)
+
+## Part 2: Responsiveness
+
+My webpageis responsive to a macbook air display and an iPad Air
+
 # **FP4 \- Final Project Writeup**
 
 Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) to make your writeup more organized, and you can preview your markdown file in VSCode [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview).
