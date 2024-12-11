@@ -77,7 +77,7 @@ I changed my instructions to just be one to minimize how much a user has to clic
 
 ## Part 5: Implementation Challenge
 
-I had challenges with my css not being updated to my deployed website and troubleshooting to figure out why. I had trouble formatting with CSS and getting things to somewhat look how I wanted them to. I struggled to download GSAP because I initially tried to use npm but that didn't installed corretly and complicated the process.
+I had challenges with my css not being updated to my deployed website and troubleshooting to figure out why. I had trouble formatting with CSS and getting things to somewhat look how I wanted them to. I struggled to download GSAP because I initially tried to use npm but that didn't installed correctly and complicated the process.
 
 ## Part 6: Generative AI Use and Reflection
 
